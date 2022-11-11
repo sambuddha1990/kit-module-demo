@@ -1,6 +1,7 @@
 package `in`.swiggy.feature_c
 
 import `in`.swiggy.feature_a.FeatureANavigator
+import `in`.swiggy.feature_a_kit.SampleData
 import javax.inject.Inject
 
 class FeatureCScreen {
@@ -8,6 +9,6 @@ class FeatureCScreen {
     lateinit var navigator : FeatureANavigator
 
     fun navigateToA() {
-        navigator.navigateToAScreen(true)
+        navigator.navigateToAScreen(SampleData(true))
     }
 }

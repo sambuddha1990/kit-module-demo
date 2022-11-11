@@ -1,5 +1,5 @@
 package `in`.swiggy.feature_a_kit
 
 interface IFeatureANavigator {
-    fun navigateToAScreen(boolean: Boolean)
+    fun navigateToAScreen(data: SampleData)
 }
