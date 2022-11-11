@@ -1,10 +1,9 @@
-apply plugin: 'com.android.application'
+apply plugin: 'com.android.library'
 apply plugin: 'org.jetbrains.kotlin.android'
 apply plugin: 'kotlin-kapt'
 
 
 android {
-    namespace 'in.swiggy.myapplication'
     compileSdk 32
 
     defaultConfig {
@@ -32,11 +31,6 @@ android {
 }
 
 dependencies {
-
-    implementation project(':feature-a')
-    implementation project(':feature-a-kit')
-    implementation project(':feature-b')
-    implementation project(':feature-c')
 
     implementation 'androidx.core:core-ktx:1.7.0'
     implementation 'androidx.appcompat:appcompat:1.5.1'

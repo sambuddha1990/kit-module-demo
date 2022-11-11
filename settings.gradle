@@ -14,3 +14,7 @@ dependencyResolutionManagement {
 }
 rootProject.name = "My Application"
 include ':app'
+include ':feature-a'
+include ':feature-b'
+include ':feature-a-kit'
+include ':feature-c'
